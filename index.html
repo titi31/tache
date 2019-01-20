@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>mes taches</title>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="jumbotron jumbotron-fluid">
+		<center><h1 class="display-4">Vos taches</h1></center>
+		<div class="container">
+		<div class="row"><div class="col-xl">
+		<label>ajoutez une tache :</label>
+		
+		
+	 	<div class="card" style="width: 28.5rem;">
+		<form class="was-validated" action="javascript: void(0);" style="display: block;" >
+			
+			 <ul id="taches" class="list-group list-group-flush">
+			 	<div class="input-group mb-3">
+		<input id="tache" class="form-control"  type="text" >
+
+		  <div class="input-group-prepend">
+
+		<button id="ajout" class="btn  btn-primary">ajoutez tache a faire</button></div></div>
+	</ul>
+			 <div class="card-body">
+			 
+			 <div class="btn-group" role="group" aria-label="Basic example">
+			 <div class="card-text">
+			 	
+			<a href="#" id="afaire" class="btn btn-secondary" >tache a faire</a>
+			<a href="#" id="fait" class="btn btn-secondary" >tache faite</a>
+			<a href="#" id="toutes" class="btn btn-secondary" >afficher toutes taches</a></div></div>
+		</div>
+			</div>
+			</form>
+		</div></div></div>
+		<script src="app.js"></script>
+	</body>
+</html>
